@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/bestellungen")
-public class BestellungCrudRestController {
-
+public class BestellungQueryRestController {
 
 }

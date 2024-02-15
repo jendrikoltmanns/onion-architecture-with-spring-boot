@@ -1,4 +1,4 @@
-package mailing.external.smtp;
+package mailing.sending.smtp;
 
 public class EmailServiceConfig {
 }
