@@ -1,6 +1,7 @@
 package bestellung.services;
 
 import bestellung.persistence.repositories.BestellungRepository;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import mailing.sending.smtp.EmailService;
 
@@ -9,8 +10,9 @@ class BestellungAusbuchenApplicationService {
 
     private final BestellungRepository bestellungRepository;
 
+    @Transactional
     public void ausbuchen(String id) {
-        bestellungRepository.delete();
+
 
     }
 }
